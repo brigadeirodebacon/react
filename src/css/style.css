@@ -1,0 +1,106 @@
+body {
+  font-family: "Lato", sans-serif;
+    background-image: url(/public/img/fundo.png);
+    background-repeat: repeat;
+    background-size:cover;
+    background-attachment: fixed;
+  
+  }
+  
+  * {
+    scroll-behavior: smooth;
+  }
+  
+
+li :hover{
+  background-color: #405765;
+  color: #ffffff;
+}
+
+li .span .active{
+  background-color: #151f25;
+  color: #ffffff;
+
+}
+
+.cor{
+  background-color: #536B79;
+}
+
+
+
+.logo {
+  height: 75px;
+ 
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+
+.baixo {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.alinhar {
+  align-items: center; 
+}
+
+.cartas {
+  width: 376px !important;
+  height: 210px !important;
+}
+.texto{
+    color: #2c3d46 ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px   
+}
+.vidro{
+  background: #536B79;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.3px);
+-webkit-backdrop-filter: blur(6.3px);
+border: 1px solid rgba(92, 144, 171, 0.3);
+color: #f1f1f1;
+
+}
+
+.back{
+  background: #536B79;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.3px);
+-webkit-backdrop-filter: blur(6.3px);
+border: 1px solid rgba(92, 144, 171, 0.3);
+color: #f1f1f1;
+height: 280px;
+width: 500px;
+
+}
+
+.icone{
+  height: 50px;
+
+}
+
+.texto {
+  text-align: center;
+}
+
+.slideimg{
+  width: 100%;
+}
+
+
+
+.link {
+  color: inherit !important;
+  text-decoration: none !important;
+}
